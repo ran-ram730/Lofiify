@@ -151,7 +151,7 @@
                 <div class="w-12 h-12 rounded-full bg-purple-900/30 group-hover:bg-pink-500/20 flex items-center justify-center transition-all duration-300 mb-3">
                     <i class="fa-solid fa-cloud-arrow-up text-pink-400 text-xl group-hover:scale-110 transition-transform"></i>
                 </div>
-                <h3 class="font-bold text-base text-pink-300 group-hover:text-pink-200">अपना पसंदीदा गाना यहाँ डालें / Upload Your Song</h3>
+                <h3 class="font-bold text-base text-white-300 group-hover:text-pink-200">अपना पसंदीदा गाना यहाँ डालें / Upload Your Song</h3>
                 <p class="text-xs text-white-300/60 mt-1">Drag and drop any audio file here (MP3, WAV, M4A, etc.)</p>
                 <span class="text-xs text-amber-300/80 mt-2 bg-amber-950/30 px-3 py-1 rounded-full border border-amber-500/10" id="file-name-display">Koi file select nahi hai</span>
             </div>
@@ -161,12 +161,12 @@
                 <div class="bg-purple-950/40 p-4 rounded-2xl border border-purple-900/40">
                     <div class="flex justify-between items-center mb-1">
                         <label class="text-sm font-semibold flex items-center gap-1 text-pink-200">
-                            <i class="fa-solid fa-clock text-pink-400"></i> Speed / Tempo (लो-फाई पिच)
+                            <i class="fa-solid fa-clock text-white-400"></i> Speed / Tempo (लो-फाई पिच)
                         </label>
                         <span id="speed-val" class="text-xs font-mono text-amber-300">80%</span>
                     </div>
                     <input type="range" id="param-speed" min="50" max="100" value="80" class="w-full accent-pink-500 cursor-pointer h-1.5 bg-purple-900 rounded-lg appearance-none">
-                    <p class="text-[10px] text-purple-300/50 mt-1">Slowing down automatically lowers the pitch for warm aesthetics.</p>
+                    <p class="text-[10px] text-white-300/50 mt-1">Slowing down automatically lowers the pitch for warm aesthetics.</p>
                 </div>
 
                 <!-- Lowpass Muffle Filter -->
@@ -178,7 +178,7 @@
                         <span id="lowpass-val" class="text-xs font-mono text-amber-300">1200 Hz</span>
                     </div>
                     <input type="range" id="param-lowpass" min="400" max="8000" value="1200" class="w-full accent-indigo-400 cursor-pointer h-1.5 bg-purple-900 rounded-lg appearance-none">
-                    <p class="text-[10px] text-purple-300/50 mt-1">Cuts higher frequencies to give that vintage "through the wall" sound.</p>
+                    <p class="text-[10px] text-white-300/50 mt-1">Cuts higher frequencies to give that vintage "through the wall" sound.</p>
                 </div>
 
                 <!-- Ambient Rain Synth -->
@@ -230,11 +230,11 @@
         <div class="mt-6 pt-4 border-t border-purple-900/30 flex flex-col gap-4">
             <!-- Progress Bar -->
             <div class="flex items-center gap-3">
-                <span id="curr-time" class="text-xs font-mono text-purple-400">00:00</span>
+                <span id="curr-time" class="text-xs font-mono text-white-400">00:00</span>
                 <div class="flex-1 h-2 bg-purple-900/50 rounded-full relative overflow-hidden cursor-pointer" id="progress-bar-container">
                     <div id="progress-bar-fill" class="w-0 h-full bg-gradient-to-r from-pink-500 to-amber-500 rounded-full"></div>
                 </div>
-                <span id="total-time" class="text-xs font-mono text-purple-400">00:00</span>
+                <span id="total-time" class="text-xs font-mono text-white-400">00:00</span>
             </div>
 
             <!-- Controller Buttons -->
